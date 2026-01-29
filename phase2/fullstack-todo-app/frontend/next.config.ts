@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
     return [
       {
         source: "/api/:path*",
-        destination: "http://127.0.0.1:8000/api/:path*",
+        destination: "https://todo-app-api-jade.vercel.app/api/:path*",
       },
     ];
   },
