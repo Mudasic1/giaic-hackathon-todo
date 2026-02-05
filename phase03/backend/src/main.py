@@ -27,7 +27,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:3000",
         "http://127.0.0.1:3000",
-        "https://ai-powered-taskflow.vercel.app/",
+        "https://ai-powered-taskflow-api.vercel.app/",
     ],
     allow_credentials=True,
     allow_methods=["*"],
@@ -55,5 +55,6 @@ def root():
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
+
 
 
