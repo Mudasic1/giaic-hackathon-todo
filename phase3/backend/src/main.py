@@ -27,7 +27,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:3000",
         "http://127.0.0.1:3000",
-        "https://todo-backend-eight-chi.vercel.app",
+        "https://ai-powered-taskflow.vercel.app/",
         "https://todo-app-api-jade.vercel.app",
         "*"  # Allow all origins for development - restrict in production
     ],
